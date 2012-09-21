@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D070FDDF160BEF75006315CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FDDE160BEF75006315CE /* UIKit.framework */; };
+		D070FDE1160BEF75006315CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FDE0160BEF75006315CE /* Foundation.framework */; };
+		D070FDE3160BEF75006315CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FDE2160BEF75006315CE /* CoreGraphics.framework */; };
+		D070FDE9160BEF75006315CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D070FDE7160BEF75006315CE /* InfoPlist.strings */; };
+		D070FDEB160BEF75006315CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D070FDEA160BEF75006315CE /* main.m */; };
+		D070FDEF160BEF75006315CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D070FDEE160BEF75006315CE /* AppDelegate.m */; };
+		D070FDF2160BEF75006315CE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D070FDF0160BEF75006315CE /* MainStoryboard_iPhone.storyboard */; };
+		D070FDF5160BEF75006315CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D070FDF3160BEF75006315CE /* MainStoryboard_iPad.storyboard */; };
+		D070FDF8160BEF75006315CE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D070FDF7160BEF75006315CE /* FirstViewController.m */; };
+		D070FDFA160BEF75006315CE /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D070FDF9160BEF75006315CE /* first.png */; };
+		D070FDFC160BEF75006315CE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D070FDFB160BEF75006315CE /* first@2x.png */; };
+		D070FDFF160BEF75006315CE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D070FDFE160BEF75006315CE /* SecondViewController.m */; };
+		D070FE01160BEF75006315CE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D070FE00160BEF75006315CE /* second.png */; };
+		D070FE03160BEF75006315CE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D070FE02160BEF75006315CE /* second@2x.png */; };
+		D070FE0B160BEF76006315CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FE0A160BEF76006315CE /* SenTestingKit.framework */; };
+		D070FE0C160BEF76006315CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FDDE160BEF75006315CE /* UIKit.framework */; };
+		D070FE0D160BEF76006315CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FDE0160BEF75006315CE /* Foundation.framework */; };
+		D070FE15160BEF76006315CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D070FE13160BEF76006315CE /* InfoPlist.strings */; };
+		D070FE18160BEF76006315CE /* LunchMatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D070FE17160BEF76006315CE /* LunchMatesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D070FE0E160BEF76006315CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D070FDD1160BEF75006315CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D070FDD9160BEF75006315CE;
+			remoteInfo = LunchMates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D070FDDA160BEF75006315CE /* LunchMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D070FDDE160BEF75006315CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D070FDE0160BEF75006315CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D070FDE2160BEF75006315CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D070FDE6160BEF75006315CE /* LunchMates-Info.plist */ = {isa = PBXFileReference; path = "LunchMates-Info.plist"; sourceTree = "<group>"; };
+		D070FDE8160BEF75006315CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D070FDEA160BEF75006315CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D070FDEC160BEF75006315CE /* LunchMates-Prefix.pch */ = {isa = PBXFileReference; path = "LunchMates-Prefix.pch"; sourceTree = "<group>"; };
+		D070FDED160BEF75006315CE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D070FDEE160BEF75006315CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D070FDF1160BEF75006315CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D070FDF4160BEF75006315CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D070FDF6160BEF75006315CE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		D070FDF7160BEF75006315CE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D070FDF9160BEF75006315CE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D070FDFB160BEF75006315CE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D070FDFD160BEF75006315CE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		D070FDFE160BEF75006315CE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D070FE00160BEF75006315CE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D070FE02160BEF75006315CE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D070FE09160BEF76006315CE /* LunchMatesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchMatesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D070FE0A160BEF76006315CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D070FE12160BEF76006315CE /* LunchMatesTests-Info.plist */ = {isa = PBXFileReference; path = "LunchMatesTests-Info.plist"; sourceTree = "<group>"; };
+		D070FE14160BEF76006315CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D070FE16160BEF76006315CE /* LunchMatesTests.h */ = {isa = PBXFileReference; path = LunchMatesTests.h; sourceTree = "<group>"; };
+		D070FE17160BEF76006315CE /* LunchMatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunchMatesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D070FDD7160BEF75006315CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070FDDF160BEF75006315CE /* UIKit.framework in Frameworks */,
+				D070FDE1160BEF75006315CE /* Foundation.framework in Frameworks */,
+				D070FDE3160BEF75006315CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D070FE05160BEF76006315CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070FE0B160BEF76006315CE /* SenTestingKit.framework in Frameworks */,
+				D070FE0C160BEF76006315CE /* UIKit.framework in Frameworks */,
+				D070FE0D160BEF76006315CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D070FDCF160BEF75006315CE = {
+			isa = PBXGroup;
+			children = (
+				D070FDE4160BEF75006315CE /* LunchMates */,
+				D070FE10160BEF76006315CE /* LunchMatesTests */,
+				D070FDDD160BEF75006315CE /* Frameworks */,
+				D070FDDB160BEF75006315CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D070FDDB160BEF75006315CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D070FDDA160BEF75006315CE /* LunchMates.app */,
+				D070FE09160BEF76006315CE /* LunchMatesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D070FDDD160BEF75006315CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D070FDDE160BEF75006315CE /* UIKit.framework */,
+				D070FDE0160BEF75006315CE /* Foundation.framework */,
+				D070FDE2160BEF75006315CE /* CoreGraphics.framework */,
+				D070FE0A160BEF76006315CE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D070FDE4160BEF75006315CE /* LunchMates */ = {
+			isa = PBXGroup;
+			children = (
+				D070FDED160BEF75006315CE /* AppDelegate.h */,
+				D070FDEE160BEF75006315CE /* AppDelegate.m */,
+				D070FDF0160BEF75006315CE /* MainStoryboard_iPhone.storyboard */,
+				D070FDF3160BEF75006315CE /* MainStoryboard_iPad.storyboard */,
+				D070FDF6160BEF75006315CE /* FirstViewController.h */,
+				D070FDF7160BEF75006315CE /* FirstViewController.m */,
+				D070FDF9160BEF75006315CE /* first.png */,
+				D070FDFB160BEF75006315CE /* first@2x.png */,
+				D070FDFD160BEF75006315CE /* SecondViewController.h */,
+				D070FDFE160BEF75006315CE /* SecondViewController.m */,
+				D070FE00160BEF75006315CE /* second.png */,
+				D070FE02160BEF75006315CE /* second@2x.png */,
+				D070FDE5160BEF75006315CE /* Supporting Files */,
+			);
+			path = LunchMates;
+			sourceTree = "<group>";
+		};
+		D070FDE5160BEF75006315CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D070FDE6160BEF75006315CE /* LunchMates-Info.plist */,
+				D070FDE7160BEF75006315CE /* InfoPlist.strings */,
+				D070FDEA160BEF75006315CE /* main.m */,
+				D070FDEC160BEF75006315CE /* LunchMates-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D070FE10160BEF76006315CE /* LunchMatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D070FE16160BEF76006315CE /* LunchMatesTests.h */,
+				D070FE17160BEF76006315CE /* LunchMatesTests.m */,
+				D070FE11160BEF76006315CE /* Supporting Files */,
+			);
+			path = LunchMatesTests;
+			sourceTree = "<group>";
+		};
+		D070FE11160BEF76006315CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D070FE12160BEF76006315CE /* LunchMatesTests-Info.plist */,
+				D070FE13160BEF76006315CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D070FDD9160BEF75006315CE /* LunchMates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D070FE1B160BEF76006315CE /* Build configuration list for PBXNativeTarget "LunchMates" */;
+			buildPhases = (
+				D070FDD6160BEF75006315CE /* Sources */,
+				D070FDD7160BEF75006315CE /* Frameworks */,
+				D070FDD8160BEF75006315CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunchMates;
+			productName = LunchMates;
+			productReference = D070FDDA160BEF75006315CE /* LunchMates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D070FE08160BEF76006315CE /* LunchMatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D070FE1E160BEF76006315CE /* Build configuration list for PBXNativeTarget "LunchMatesTests" */;
+			buildPhases = (
+				D070FE04160BEF76006315CE /* Sources */,
+				D070FE05160BEF76006315CE /* Frameworks */,
+				D070FE06160BEF76006315CE /* Resources */,
+				D070FE07160BEF76006315CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D070FE0F160BEF76006315CE /* PBXTargetDependency */,
+			);
+			name = LunchMatesTests;
+			productName = LunchMatesTests;
+			productReference = D070FE09160BEF76006315CE /* LunchMatesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D070FDD1160BEF75006315CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D070FDD4160BEF75006315CE /* Build configuration list for PBXProject "LunchMates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D070FDCF160BEF75006315CE;
+			productRefGroup = D070FDDB160BEF75006315CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D070FDD9160BEF75006315CE /* LunchMates */,
+				D070FE08160BEF76006315CE /* LunchMatesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D070FDD8160BEF75006315CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070FDE9160BEF75006315CE /* InfoPlist.strings in Resources */,
+				D070FDF2160BEF75006315CE /* MainStoryboard_iPhone.storyboard in Resources */,
+				D070FDF5160BEF75006315CE /* MainStoryboard_iPad.storyboard in Resources */,
+				D070FDFA160BEF75006315CE /* first.png in Resources */,
+				D070FDFC160BEF75006315CE /* first@2x.png in Resources */,
+				D070FE01160BEF75006315CE /* second.png in Resources */,
+				D070FE03160BEF75006315CE /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D070FE06160BEF76006315CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070FE15160BEF76006315CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D070FE07160BEF76006315CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D070FDD6160BEF75006315CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070FDEB160BEF75006315CE /* main.m in Sources */,
+				D070FDEF160BEF75006315CE /* AppDelegate.m in Sources */,
+				D070FDF8160BEF75006315CE /* FirstViewController.m in Sources */,
+				D070FDFF160BEF75006315CE /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D070FE04160BEF76006315CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D070FE18160BEF76006315CE /* LunchMatesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D070FE0F160BEF76006315CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D070FDD9160BEF75006315CE /* LunchMates */;
+			targetProxy = D070FE0E160BEF76006315CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D070FDE7160BEF75006315CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D070FDE8160BEF75006315CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D070FDF0160BEF75006315CE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D070FDF1160BEF75006315CE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D070FDF3160BEF75006315CE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D070FDF4160BEF75006315CE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D070FE13160BEF76006315CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D070FE14160BEF76006315CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D070FE19160BEF76006315CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D070FE1A160BEF76006315CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D070FE1C160BEF76006315CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchMates/LunchMates-Prefix.pch";
+				INFOPLIST_FILE = "LunchMates/LunchMates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D070FE1D160BEF76006315CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchMates/LunchMates-Prefix.pch";
+				INFOPLIST_FILE = "LunchMates/LunchMates-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D070FE1F160BEF76006315CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunchMates.app/LunchMates";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchMates/LunchMates-Prefix.pch";
+				INFOPLIST_FILE = "LunchMatesTests/LunchMatesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D070FE20160BEF76006315CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunchMates.app/LunchMates";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchMates/LunchMates-Prefix.pch";
+				INFOPLIST_FILE = "LunchMatesTests/LunchMatesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D070FDD4160BEF75006315CE /* Build configuration list for PBXProject "LunchMates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D070FE19160BEF76006315CE /* Debug */,
+				D070FE1A160BEF76006315CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D070FE1B160BEF76006315CE /* Build configuration list for PBXNativeTarget "LunchMates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D070FE1C160BEF76006315CE /* Debug */,
+				D070FE1D160BEF76006315CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D070FE1E160BEF76006315CE /* Build configuration list for PBXNativeTarget "LunchMatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D070FE1F160BEF76006315CE /* Debug */,
+				D070FE20160BEF76006315CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D070FDD1160BEF75006315CE /* Project object */;
+}
